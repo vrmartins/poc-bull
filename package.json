@@ -1,0 +1,16 @@
+{
+  "name": "poc-bull",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vrmartins/poc-bull.git",
+  "author": "Vilmar Rodrigues Martins <vilmarmartins@softbox.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "bull": "^3.10.0",
+    "eslint": "^6.0.1"
+  },
+  "devDependencies": {
+    "@softboxlab/eslint-config-gandalf-lint": "^0.3.1",
+    "eslint-plugin-security": "^1.4.0"
+  }
+}

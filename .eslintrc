@@ -1,0 +1,56 @@
+{
+    "plugins": [
+      "security"
+    ],
+    "extends": [
+      "@softboxlab/eslint-config-gandalf-lint",
+      "plugin:security/recommended"
+    ],
+    "env": {
+      "commonjs": true,
+      "node": true,
+      "mocha": true
+    },
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "complexity": [
+        "error",
+        5
+      ],
+      "no-underscore-dangle": [
+        2,
+        {
+          "allow": [
+            "__"
+          ]
+        }
+      ],
+      "space-before-function-paren": "off",
+      "no-multiple-empty-lines": [
+        "error",
+        {
+          "max": 1,
+          "maxEOF": 1
+        }
+      ],
+      "sort-imports": "off",
+      "sort-keys": "off",
+      "sort-vars": "error",
+      "no-plusplus": "off",
+      "nonblock-statement-body-position": [
+        "error",
+        "beside"
+      ],
+      "no-confusing-arrow": [
+        "error",
+        {
+          "allowParens": true
+        }
+      ],
+      "import/order": "off",
+      "sort-imports-es6-autofix/sort-imports-es6": "off"
+    }
+  }
